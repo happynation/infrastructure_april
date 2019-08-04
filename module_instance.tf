@@ -1,6 +1,6 @@
 module "bro" {
   source                 = "terraform-aws-modules/ec2-instance/aws"
-  version                = "~> 3.0"
+  version                = "~> 2.6"
 
   name                   = "bro"
   instance_count         = 3
