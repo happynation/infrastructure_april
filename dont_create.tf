@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "vova-april" {
+resource "aws_s3_bucket" "rootvova-april" {
     bucket = "infra-april-vova-2019b"
     
   
